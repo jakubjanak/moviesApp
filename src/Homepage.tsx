@@ -1,8 +1,15 @@
+import { movies } from "./assets/scripts/movies"
+import MovieCard from "./assets/components/MovieCard"
+
 function Homepage() {
 
   return (
     <>
-      <h1 className="font-bold text-2xl">Hello my new beautiful Movie App.</h1>
+      {
+        Object.entries(movies).map(([title, data]) => (
+          <MovieCard title={title} data={data} />
+        ))
+      }
     </>
   )
 }
