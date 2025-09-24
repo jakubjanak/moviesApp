@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-customBlack: #181616;
+  --color-customWhite: #EEEEEE;
+  --color-customPurple: #312188;
+}
+
 body {
     background-color: #181616;
     color: #EEEEEE;
