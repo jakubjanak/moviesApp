@@ -7,6 +7,7 @@ import { normalizeText } from "./assets/scripts/moviesFuncs"
 import { useEffect } from "react"
 import type { MovieData } from "./assets/scripts/types"
 import MovieModal from "./assets/components/MovieModal"
+import DescriptionModal from "./assets/components/DescriptionModal"
 
 const PAGE_SIZE = 21;
 
@@ -15,6 +16,7 @@ function Movies() {
   const [page, setPage] = useState(0)
   const [currentData, setCurrentData] = useState<MovieData | null>(null);
   const [currentTitle, setCurrentTitle] = useState("");
+  const [showDescription, setShowDescription] = useState(false);
 
   const filteredMovies = Object.entries(movies).filter(([title]) =>
     normalizeText(title).includes(normalizeText(searchVal))
@@ -49,7 +51,12 @@ function Movies() {
 
         {
           currentData &&
-          <MovieModal data={currentData} title={currentTitle} setUseState={setCurrentData} />
+          <MovieModal data={currentData} title={currentTitle} setUseState={setCurrentData} setShowDesc={setShowDescription} />
+        }
+
+        {
+          showDescription == true && currentData !== null &&
+          <DescriptionModal description={currentData?.description} setShowDesc={setShowDescription} />
         }
 
               {/* Pagination ovládání */}

@@ -4,4 +4,6 @@ export type MovieData = {
     genre: string[],
     poster: string,
     length: number,
+    trailerUrl: string,
+    description: string
 }
