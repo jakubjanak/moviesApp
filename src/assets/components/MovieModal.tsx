@@ -1,5 +1,6 @@
-import type { Dispatch, SetStateAction } from "react";
+import { useState, type Dispatch, type SetStateAction } from "react";
 import type { MovieData } from "../scripts/types";
+import Player from "./Player";
 
 type MovieCardProps = { data: MovieData } & { title: string, setUseState: Dispatch<SetStateAction<MovieData | null>>, setShowDesc: Dispatch<SetStateAction<boolean>> };
 
@@ -9,6 +10,8 @@ export default function MovieModal({data, title, setUseState, setShowDesc}: Movi
     console.log(descriptionWords.length)
     const previewDescription = descriptionWords.slice(0, limitWords).join(" ")
     const isLong = descriptionWords.length > limitWords
+
+    const [showPlayer, setShowPlayer] = useState(false)
 
   return (
     <div className="w-full h-full bg-black/50 z-10 fixed top-0 left-0 flex justify-center items-center inset-0">
@@ -23,7 +26,7 @@ export default function MovieModal({data, title, setUseState, setShowDesc}: Movi
                 <p className="font-bold text-lg">Délka filmu: <span className="font-normal text-base">{data.length}</span></p>
                 <p className="font-bold text-lg line-clamp-4">Popis: <span className="font-normal text-base">{isLong ? previewDescription : data.description}{isLong && ( <button className="text-blue-400 cursor-pointer" onClick={() => setShowDesc(true)}>...více</button> )}</span></p>
             </div>
-            <button className="font-bold text-customWhite bg-customPurple rounded py-1.5 px-3">Přehrát</button>
+            <button onClick={() => setShowPlayer(true)} className="font-bold text-customWhite bg-customPurple rounded py-1.5 px-3">Přehrát</button>
             <div className="w-full mt-1.5">
                 {/* <img className="max-h-[55vh] max-w-[90vw] object-contain rounded" src={data.poster} alt={title} /> */}
                 <iframe className="w-[768px] aspect-video rounded" src={data.trailerUrl} title={title + " - trailer"} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -31,8 +34,12 @@ export default function MovieModal({data, title, setUseState, setShowDesc}: Movi
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 absolute right-1 top-1 cursor-pointer" onClick={() => setUseState(null)}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
-
+        
         </div>
+        {
+            showPlayer &&
+            <Player url={data.url} closeModalState={setShowPlayer} />
+        }
     </div>
   )
 }
