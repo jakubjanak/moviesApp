@@ -18,7 +18,7 @@ export const movies = {
     poster: "/posters/28_dni_pote.jpg",
     posterFull: "/posters/28_dni_pote_full.jpg",
     length: 108,
-    url: "28 dní poté (2002) CZ.mp4",
+    url: "28 dní poté (2002) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/mWEhfF27O0c`,
     description: `Skupinka aktivistů, která bojuje za práva zvířat, vtrhne do laboratoře, kde vědci zkoumají opice infikované vzteklinou. Ochránci pustí opice z klecí ven, ty je okamžitě pokoušou a nakazí.
 
@@ -33,7 +33,7 @@ export const movies = {
     poster: "/posters/28_let_pote.jpg",
     posterFull: "/posters/28_let_pote_full.jpg",
     length: 115,
-    url: "28 let poté (2025) CZ.mkv",
+    url: "28 let poté (2025) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/WdBFbSFMJ-c`,
     description: "Cenou Akademie® oceněný režisér Danny Boyle a na Cenu Akademie® nominovaný scénárista Alex Garland se znovu setkávají ve filmu 28 let poté, novém děsivém příběhu zasazeném do světa vytvořeného filmem 28 dní poté. Od chvíle, kdy virus zuřivosti unikl z laboratoře na výrobu biologických zbraní, uplynuly už téměř tři desítky let a nyní, stále v nemilosrdně vynucené karanténě, si někteří našli způsob, jak mezi nakaženými existovat. Jedna taková skupina přeživších žije na malém ostrově spojeném s pevninou jedinou, silně chráněnou hrází. Když jeden ze skupiny opustí ostrov a vydá se na misi do temného srdce pevniny, objeví tajemství, zázraky a hrůzy, které zmutovaly nejen nakažené, ale i ostatní přeživší."
   },
@@ -77,7 +77,7 @@ export const movies = {
     poster: "/posters/agent_bez_minulosti.jpg",
     posterFull: "/posters/agent_bez_minulosti_full.jpg",
     length: 119,
-    url: "Agent bez minulosti (2002) CZ.mkv",
+    url: "Agent bez minulosti (2002) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/gjwE_8uFMbA`,
     description: 'Jedné bouřlivé noci vyloví italská rybářská loď z moře muže, spíš mrtvého než živého. V zádech má kulky a pod kůží štítek s číslem bankovního konta ve švýcarské bance. Víc nic. Když se mu konečně vrátí vědomí, nic svým zachráncům o sobě nedokáže povědět. Trpí naprostou ztrátou paměti. Postupně zjišťuje, že ovládá bojová umění, domluví se v několika jazycích a že si poradí s každou zbraní. To signalizuje velice nebezpečnou minulost. Ale kdo a proč ho chtěl zabít, si vybavit nedokáže. V curyšské depozitní schránce, kam se vydá, jakmile loď přistane, nalezne hned několik cestovních dokladů, závratně vysokou hotovost, automatickou pistoli a jméno Jason Bourne s pařížskou adresou. I když o sobě stále nic neví, pochopí záhy, že lidé, kteří ho znají, usilují o jeho život. A tak Marii, první dívce, kterou potká, nabídne 10.000 dolarů za cestu do Paříže. Teprve tady, s pomocí Marie, jejíž život převrátil vzhůru nohama, začíná skládat první kamínky do mozaiky své minulosti...  Román Roberta Ludluma, který má přinejmenším stejně široké čtenářské zázemí jako třeba Tom Clancy, byl již před lety zfilmován a uveden na televizních obrazovkách a videu pod názvem Agent beze jména s Richardem Chamberlainem. Doug Liman, režisér nového přepisu, odmítl roli ilustrátora dramatické a dějově nesmírně rozvětvené předlohy. Rozhodl se natočit akční špionážní film, zakotvený v současné realitě, který by oslovil i mladou diváckou generaci. Díky svému otci poznal skutečné agenty a věděl, že jejich život a práce se jen málo podobá tomu, co znal ze špionážních snímků. Proto se - se souhlasem autora - rozhodl k rozsáhlým škrtům a změnám, proto do hlavní role, pro mnohé až překvapivě, obsadil Matta Damona, držitele Oscara za film Dobrý Will Hunting. Ten o svém nejnovějším snímku řekl: "Věděl jsem s jistotou, že Doug nenatočí standardní hollywoodský akční film". Vystihl tak stručně a přesně kvalitu, kterou Doug Liman románu z 80. let vtiskl. Na atraktivitě mu v očích našich diváků nepochybně dodává i fakt, že byl natáčen v ulicích Prahy.'
   },
@@ -88,7 +88,7 @@ export const movies = {
     poster: "/posters/amater.jpg",
     posterFull: "/posters/amater_full.jpg",
     length: 123,
-    url: "The Amateur (2025) CZ tit.mkv",
+    url: "The Amateur (2025) ENG NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/gizK77slRzE`,
     description: `Charlie Heller (Malek) je brilantní, ale hluboce introvertní luštitel CIA pracující ve sklepní kanceláři centrály v Langley, jehož život se obrátí vzhůru nohama, když je jeho žena zabita při teroristickém útoku v Londýně. Když jeho nadřízení odmítnou jednat, vezme věci do vlastních rukou a vydá se na nebezpečnou cestu po celém světě, aby vypátral viníky, přičemž jeho inteligence mu poslouží jako nejlepší zbraň, díky níž unikne pronásledovatelům a dosáhne pomsty.`
   },
@@ -99,7 +99,7 @@ export const movies = {
     poster: "/posters/andele_a_demoni.jpg",
     posterFull: "/posters/andele_a_demoni_full.jpg",
     length: 133,
-    url: "Andělé démoni (2009) CZ.mkv",
+    url: "Andělé a démoni (2009) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/ekfTP1UQG1o`,
     description: "Když Robert Langdon objeví důkazy o znovuobnovení starověkého tajného bratrstva známého jako Ilumináti - nejmocnější tajné organizace v historii - také čelí smrtelnému nebezpečí, které ohrožuje nejnenáviděnějšího nepřítele této tajné organizace: katolickou církev. Když se Langdon dozví, že hodiny na nezastavitelné časované bombě, kterou představují Ilumináti, pořád tikají, odlétá do Říma, kde spojí své síly s Vittorií Vetra, krásnou a záhadnou italskou vědkyní. Langdon a Vetra se vydávají na nepřetržitou cestu a dobrodružstvím nabitou honičku odehrávající se mezi zapečetěnými kryptami, nebezpečnými katakombami, opuštěnými katedrálami a dokonce do srdce nejuzavřenějšího trezoru na světě. Na své cestě sledují 400 let staré starobylé symboly, které znamenají jedinou naději pro přežití Vatikánu."
   },
@@ -110,7 +110,7 @@ export const movies = {
     poster: "/posters/atlas.jpg",
     posterFull: "/posters/atlas_full.jpg",
     length: 118,
-    url: "Atlas (2024) CZ.mkv",
+    url: "Atlas (2024) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/Jokpt_LJpbw`,
     description: "Geniální specialistka na boj proti teroru nedůvěřuje umělé inteligenci, ani co se za nehet vejde. Při zoufalém honu na zlotřilého robota ale možná změní názor."
   },
@@ -121,7 +121,7 @@ export const movies = {
     poster: "/posters/auta.jpg",
     posterFull: "/posters/auta_full.jpg",
     length: 116,
-    url: "Auta (2006) CZ.mkv",
+    url: "Auta (2006) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/pQly7_Cj34U`,
     description: "Když se začínající, avšak velmi ambiciózní závodní auto Blesk McQueen během cesty na velkolepý šampionát Zlatý píst neočekávaně zatoulá do ospalé Kardanové lhoty u Silnice 66, naučí se, že opravdová radost ze života se neskrývá za cílovou rovinkou, ale na cestě k ní. Auta ze lhoty, s nimiž se v průběhu svého putování napříč Amerikou seznámí, mu ukáží, že na světě existují i důležitější věci než trofeje, sláva a sponzoři."
   },
@@ -132,7 +132,7 @@ export const movies = {
     poster: "/posters/avengers.jpg",
     posterFull: "/posters/avengers_full.jpg",
     length: 143,
-    url: "The Avengers 1 (2012) CZ.mp4",
+    url: "Avengers (2012) CZ NVIDIA.mp4",
     trailerUrl: `https://www.youtube.com/embed/h4MCVu0jnzo?si=UnjXaAoDEjqZ_Vpc`,
     description: `Marvel Studios uvádí super hrdinský tým všech dob Avengers, ve kterém se přestaví ikoničtí super hrdinové - Iron Man, Neuvěřitelný Hulk, Thor, Captain America, Hawkeye a Black Widow. Když se objeví nečekaný nepřítel, který ohrožuje světovou bezpečnost, Nick Fury, ředitel mezinárodní mírové agentury, známé také jako S.H.I.E.L.D., zjistí, že potřebuje tým, aby odvrátil světovou katastrofu. Začíná provádět nábor po celém světě.`
   },
@@ -143,40 +143,40 @@ export const movies = {
     poster: "/posters/avengers_age_of_ultron.jpg",
     posterFull: "/posters/avengers_age_of_ultron_full.jpg",
     length: 141,
-    url: "The Avengers - Age of Ultron (2015) CZ.mkv",
+    url: "Avengers - Age of Ultron (2015) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/kL2-CLQZQe8?si=9WYK37-AsA61N775`,
     description: `Pokus miliardáře Tonyho Starka oživit program na udržení celosvětového míru skončí nezdarem a největší hrdinové světa, včetně Iron Mana, Kapitána Ameriky, Thora, Neuvěřitelného Hulka, Black Widow a Hawkeye musí čelit děsivému nebezpečí. V sázce je osud celé planety. Povstane zlovolný Ultron a jenom Avengers mu mohou zabránit v uskutečnění ďábelských plánů. Nová křehká spojenectví a nečekané zvraty jsou zárukou vzrušujícího a jedinečného akčního dobrodružství globálních rozměrů.`
   },
-  "Avengers 3 - Infinity War": {
+  "Avengers - Infinity War": {
     year: 2018,
     review: 86,
     genre: ["akční", "dobrodružný", "sci-fi"],
     poster: "/posters/avengers_3_infinity_war.jpg",
     posterFull: "/posters/avengers_3_infinity_war_full.jpg",
     length: 149,
-    url: "Avengers 3 - Infinity War (2018) CZ.mkv",
+    url: "Avengers - Infinity War (2018) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/fQJtrT7Mygw?si=MCUVGWb22QQl3Ecn`,
     description: "Snímek Avengers: Infinity War završuje neuvěřitelnou desetiletou cestu filmovým světem studia Marvel a přináší na stříbrná plátna nejsmrtonosnější a nejultimátnější válku všech dob. Avengers a jejich superhrdinští spojenci musí riskovat úplně vše a pokusit se porazit mocného Thanose dřív, než jeho bleskový útok, provázený ničením a zkázou, zničí vesmír jednou provždy."
   },
-  "Avengers 4 - Endgame": {
+  "Avengers - Endgame": {
     year: 2019,
     review: 84,
     genre: ["akční", "dobrodružný", "sci-fi", "fantasy"],
     poster: "/posters/avengers_4_endgame.jpg",
     posterFull: "/posters/avengers_4_endgame_full.jpg",
     length: 182,
-    url: "Avengers 4 - Endgame (2019) CZ.mp4",
+    url: "Avengers - Endgame (2019) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/02YEOiHZH1I?si=xLcZ3fJosjD5jJGD`,
     description: "Hrozivé události způsobené Thanosem, který vyhladil polovinu života ve vesmíru a silně oslabil Avengers, vedou zbylé superhrdiny k tomu, aby ve strhujícím finále 22 filmů studia Marvel zvaném Avengers: Endgame sebrali poslední síly a pokusili se vrátit úder."
   },
-  "Balerina": {
+  "Balerína": {
     year: 2025,
     review: 71,
     genre: ["akční", "thriller"],
     poster: "/posters/balerina.jpg",
     posterFull: "/posters/balerina_full.jpg",
     length: 125,
-    url: "mb://192.168.0.1/G/Filmy/Balerina (2025) CZ tit.mkv",
+    url: "Balerína (2025) CZ tit NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/foEsT6FUX50?si=0D_6ZddiGADenv97`,
     description: "Film se odehrává během událostí snímku John Wick: Kapitola 3 a představuje Evu Macarro (Ana de Armas), která podstupuje výcvik u zabijáckých ruských Romů."
   },
@@ -187,7 +187,7 @@ export const movies = {
     poster: "/posters/batman.jpg",
     posterFull: "/posters/batman_full.jpg",
     length: 176,
-    url: "Batman (2022) CZ.mkv",
+    url: "Batman (2022) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/qrOJqYBphHE?si=_ognDy8Oy3kn3jR4`,
     description: "Dva roky slídění po ulicích jako Batman, který nahání strach zločincům, zavedly Bruce Waynea hluboko do stínů Gotham City. Mezi zkorumpovanou sítí městských úředníků a vysoce postavených osobností má osamělý mstitel jen několik důvěryhodných spojenců - Alfreda Pennywortha a poručíka Jamese Gordona - a mezi svými spoluobčany se stal jediným ztělesněním pomsty. Když se vrah sérií sadistických machinací zaměří na gothamskou smetánku, stopa záhadných indicií pošle Největšího detektiva světa na vyšetřování do podsvětí, kde se setká s postavami jako Oswald Cobblepot, Edward Nashton, Carmine Falcone a Selina Kyleová. Jakmile důkazy začnou vést blíže k domovu a začne být jasný rozsah pachatelových plánů, musí Batman navázat nové vztahy a odhalit pachatele, aby se stal symbolem naděje Gotham City."
   },
@@ -198,18 +198,18 @@ export const movies = {
     poster: "/posters/batman_zacina.jpg",
     posterFull: "/posters/batman_zacina_full.jpg",
     length: 140,
-    url: "Batman začíná (2005) CZ.mkv",
+    url: "Batman začíná (2005) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/MlB-sy-0OOQ?si=uI5jBja51D9ccJo2`,
     description: "Film popisuje počátky legendy o tajemném Batmanovi a zjevení Temného rytíře coby síly dobra v Gotham City. Zklamaný dědic továren Bruce Wayne cestuje těsně po úmrtí svých rodičů po světě a hledá způsob, jakým by bojoval s nespravedlností a jak by obrátil strach proti těm, kteří okrádají bázlivé. Po čase se vrací zpět do Gotham City a vzápětí vypouští do světa své druhé já, maskovaného bojovníka Batmana, který používá svoji sílu, inteligenci a řadu svých technických vymožeností k boji proti zlověstným silám, které ohrožují město..."
   },
-  "Birds of Prey - Podivuhodná proměnna Harley Quinn": {
+  "Birds of Prey (Podivuhodná proměnna Harley Quinn)": {
     year: 2020,
     review: 55,
     genre: ["akční", "dobrodružný", "krimi", "komedie"],
     poster: "/posters/bird_of_prey.jpg",
     posterFull: "/posters/bird_of_prey_full.jpg",
     length: 109,
-    url: "Birds of Prey - Podivuhodná proměnna Harley Quinn (2020) CZ.avi",
+    url: "Birds Of Prey (Podivuhodná Proměnna Harley Quinn) (2020) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/jo_bHbCpqTE?si=adtnwrxoxtbqXQOK`,
     description: "Po rozchodu s Jokerem se Harley Quinn (Margot Robbie) spojí s dalšími superhrdinkami, aby společně zachránily malou dívku z rukou obávaného narcistického padoucha jménem Black Mask (Ewan McGregor). Správná psychoušská jízda může začít!"
   },
@@ -220,7 +220,7 @@ export const movies = {
     poster: "/posters/black_widow.jpg",
     posterFull: "/posters/black_widow_full.jpg",
     length: 134,
-    url: "Black Widow (2021) CZ.mkv",
+    url: "Black Widow (2021) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/eF1Y_zW0jZk?si=8H4tpoDd5C0l1Xap`,
     description: "Scarlett Johansson alias Black Widow se po dekádě v Marvel Cinematic Universe konečně dočkala svého prvního sólového dobrodružství, které však bude úplně jiné, než jaké doposud poznala. Skupina velmi nebezpečných lidí odhalila její už téměř zapomenutou minulost, a proto se musí vydat na cestu napříč celým světem, zatímco je pronásledována Taskmasterem – neúprosným zabijákem, jehož jediný úkol je zničit Black Widow."
   },
@@ -231,7 +231,7 @@ export const movies = {
     poster: "/posters/blade_runner_2049.jpg",
     posterFull: "/posters/blade_runner_2049_full.jpg",
     length: 164,
-    url: "Blade Runner 2049 (2017) CZ.avi",
+    url: "Blade Runner 2049 (2017) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/tR0o6nG9ptc?si=9bESUYOGJCQI2vSs`,
     description: "Třicet let po událostech prvního filmu odhaluje nový Blade Runner a důstojník losangeleské policie K (Ryan Gosling) dlouho ukryté tajemství, které je natolik zásadní, že by mohlo zcela rozvrátit poslední zbytky lidské společnosti. Toto odhalení ho nutí zahájit pátrání po Rickovi Deckardovi (Harrison Ford), bývalém Blade Runnerovi losangeleské policie, který je už 30 let nezvěstný."
   },
@@ -242,7 +242,7 @@ export const movies = {
     poster: "/posters/bourneovo_ultimatum.jpg",
     posterFull: "/posters/bourneovo_ultimatum_full.jpg",
     length: 115,
-    url: "Bourneovo ultimátum (2007) CZ.mkv",
+    url: "Bourneovo ultimátum (2007) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/ZT2ZxjUjSo0?si=IcAMYH20E_2kgEt5`,
     description: 'Vynořil se z vln Středozemního moře a neměl sebemenší tušení, kdo je. Tehdy se zrodil Agent bez minulosti. Postupně začal skládat střípky do své životní mozaiky, až zjistil, že jeho minulost skrývá řadu temných míst, kterými musí znovu projít, pokud chce o sobě něco zjistit. Tak vznikl Bourneův mýtus. Teď stojí elitní tajný agent Jason Bourne (Matt Damon) na prahu řešení vlastní životní hádanky a chystá se vyhlásit Bourneovo ultimátum. Náročnou cestu za poznáním sebe sama mu prakticky od začátku komplikovala řada nájemných zabijáků, kteří na něm pracovali z pověření jeho bývalých zaměstnavatelů. Ti totiž usilují o pravý opak toho, po čem touží Bourne. Tedy aby si na všechno vzpomněl. Tím jak se víc a víc blíží k odhalení pravdy, zesilují se i jejich nervozita a aktivity jimi najatých vrahů. Agent Jason Bourne před nimi prchá přes Moskvu, Paříž, Londýn a marocký přístav Tanger až do New Yorku, kde se pokusí definitivně dohnat vlastní minulost, aby se mohl začít dívat do budoucnosti. Nebude to mít lehké, protože kromě ostrostřelců z podsvětí ho tu snad kromě armády pronásledují všechny ozbrojené americké složky... Úspěch akční špionážní série podle bestselleru Roberta Ludluma z velké míry souvisí s tím, že si udržuje kontakt s realitou, má velmi chytrou zápletku a charismatického hlavního hrdinu. Ani jeden z těchto důležitých faktorů nebude v Bourneově ultimátu chybět. Režie se znovu ujal uznávaný režisér Paul Greengrass, loni nominovaný na Oscara za režii strhujícího Letu číslo 93, o scénář se stejně jako u předchozích dvou dílů postaral Tony Gilroy, kterému pomáhal slavný britský dramatik s českými kořeny Tom Stoppard. A nechybí samozřejmě ani Matt Damon coby nepolapitelný tajný agent s amnézií. "Je hodně těžké se k té roli vrátit, protože všichni čekají, že přijdete s něčím novým, zároveň ale nechtějí, aby se Jason Bourne nějak zásadně změnil. Lavírovat mezi těmito dvěma nároky je hodně těžké. Zvlášť když je Bourne jednou z mých nejoblíbenějších postav a nechci jí ublížit," říká Matt Damon.'
   },
@@ -253,7 +253,7 @@ export const movies = {
     poster: "/posters/bournuv_mytus.jpg",
     posterFull: "/posters/bournuv_mytus_full.jpg",
     length: 108,
-    url: "Bournův mýtus (2004) CZ.mkv",
+    url: "Bournův mýtus (2004) CZ NVIDIA.mkv",
     trailerUrl: `https://www.youtube.com/embed/6bjk3Fa5RN8?si=2S2kr49oVzLBVjFZ`,
     description: 'V roce 2002 se ve filmu Agent bez minulosti podle románu Roberta Ludluma objevil nový hrdina: profesionální zabiják, který se pokouší oživit svou paměť a prchá před pronásledujícími stíny ze své minulosti. V napínavém a spletitém thrilleru se výrazně herecky předvedl Matt Damon jako agent Jason Bourne. Jason Bourne se teď na plátno vrací v pokračování. Před dvěma lety se domníval, že své minulosti utekl. Nyní ho minulost opět dohání. Bourne a Marie (Franka Potente) dál žijí v anonymitě. Bournea ženou noční můry a vzpomínky. Vláčí Marii z města do města. Snaží se být vždy aspoň krok před hrozbou, kterou tuší v každém pohledu i v každém telefonním "omylu", před nebezpečím, které očekává v každé vteřině. Ale ohrožení jej do světa, z něhož chtěl uniknout, neustále vrací. Když se v poklidné vsi, která je jejich dočasným domovem, objeví tajný agent, Bourne s Marií místo kvapně opouštějí. Začne nová globální hra na kočku a myš a Jason Bourne se musí vrátit ke své minulosti, i když tajná operace Treadstone, která vytvářela profesionální zabijáky, už skončila. Před lety Bourneovi řekli, že nesmí s nikým navázat kontakt. Minulost se přihlásila sama. Měli ho nechat na pokoji.'
   },
