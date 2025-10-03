@@ -264,7 +264,7 @@ export const movies = {
     poster: "/posters/captain_america_navrat_prvniho_avengera.jpg",
     posterFull: "/posters/captain_america_navrat_prvniho_avengera_full.jpg",
     length: 136,
-    url: "Captain America - Návrat prvního Avengera (2014) CZ.mp4",
+    url: "Captain America - Návrat prvniho Avengera (2014) CZ NVIDIA.mp4",
     trailerUrl: `https://www.youtube.com/embed/UhSz0tPmEeY?si=-UYp2XP9nXEjXcT8`,
     description: "Po katastrofických událostech, které Avengers prožili v New Yorku, žije Steve Rogers neboli Captain America ve filmu Captain America: Návrat prvního Avengera poklidně v ústraní ve Washingtonu, D.C. a snaží se přizpůsobit modernímu světu. Když ale dojde k útoku na jeho kolegu z organizace S.H.I.E.L.D., zaplétá se do pavučiny intrik, které ohrožují celý svět. Společně s Black Widow se Captain America pokouší odhalit stále se prohlubující spiknutí a současně se na každém kroku střetává s profesionálními zabijáky, kteří byli posláni, aby ho umlčeli. Když dojde k odhalení skutečné šíře zákeřného plánu, povolávají Captain America s Black Widow na pomoc svého spojence Falcona. Přesto se brzy ocitají tváří v tvář nečekanému a zdatnému nepříteli - Winter Soldierovi."
   },
@@ -275,7 +275,7 @@ export const movies = {
     poster: "/posters/captain_america_novy_svet.jpg",
     posterFull: "/posters/captain_america_novy_svet_full.jpg",
     length: 118,
-    url: "Captain America - Nový svět (2025) CZ.mp4",
+    url: "Captain America - Nový svět (2025) CZ NVIDIA.mp4",
     trailerUrl: `https://www.youtube.com/embed/dYb1izlZX1k?si=Rl1TmODm4A-JU9E4`,
     description: "Po setkání s nově zvoleným prezidentem USA Thaddeusem Rossem se Sam Wilson ocitne uprostřed mezinárodního incidentu. Musí odhalit příčinu nekalého celosvětového spiknutí dříve, než skutečný strůjce konfliktu způsobí, že celý svět uvidí rudě."
   },
