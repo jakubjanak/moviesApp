@@ -8,6 +8,9 @@ import { useEffect } from "react"
 import type { MovieData } from "./assets/scripts/types"
 import MovieModal from "./assets/components/MovieModal"
 import DescriptionModal from "./assets/components/DescriptionModal"
+import gsap from "gsap"
+import { useGSAP } from "@gsap/react"
+import { useRef } from "react"
 
 const PAGE_SIZE = 21;
 
@@ -17,6 +20,10 @@ function Movies() {
   const [currentData, setCurrentData] = useState<MovieData | null>(null);
   const [currentTitle, setCurrentTitle] = useState("");
   const [showDescription, setShowDescription] = useState(false);
+
+  gsap.registerPlugin(useGSAP)
+
+  const moviesContainerRef = useRef<HTMLDivElement>(null)
 
   const filteredMovies = Object.entries(movies).filter(([title]) =>
     normalizeText(title).includes(normalizeText(searchVal))
@@ -41,7 +48,7 @@ function Movies() {
       <div className="h-full w-full my-4">
         <Header>filmová galerie</Header>
         <SearchBtn value={searchVal} onChange={e => setSearchVal(e.target.value)} />
-        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-7 w-10/12 mx-auto gap-2 mt-4">
+        <div ref={moviesContainerRef} className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-7 w-10/12 mx-auto gap-2 mt-4">
         {
           current.map(([title, data]) => (
             <MovieCard key={title} title={title} image={data.poster} onClick={() => {setCurrentData(data); setCurrentTitle(title)}}/>

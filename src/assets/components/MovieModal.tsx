@@ -24,6 +24,12 @@ export default function MovieModal({data, title, setUseState, setShowDesc}: Movi
                     indx + 1 < data.genre.length ? genreType + " / " : genreType
                 ))}</span></p>
                 <p className="font-bold text-lg">Délka filmu: <span className="font-normal text-base">{data.length}</span></p>
+                <p className="font-bold text-lg">Režisér: <span className="font-normal text-base">{data.directors.map((director, indx) => (
+                    indx + 1 < data.directors.length ? director + ", " : director
+                ))}</span></p>
+                <p className="font-bold text-lg">Herci: <span className="font-normal text-base">{data.actors.map((actor, indx) => (
+                    indx + 1 < data.actors.length ? actor + ", " : actor
+                ))}</span></p>
                 <p className="font-bold text-lg line-clamp-4">Popis: <span className="font-normal text-base">{isLong ? previewDescription : data.description}{isLong && ( <button className="text-blue-400 cursor-pointer" onClick={() => setShowDesc(true)}>...více</button> )}</span></p>
             </div>
             <button onClick={() => setShowPlayer(true)} className="font-bold text-customWhite bg-customPurple rounded py-1.5 px-3">Přehrát</button>

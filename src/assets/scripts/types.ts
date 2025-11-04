@@ -6,5 +6,7 @@ export type MovieData = {
     length: number,
     trailerUrl: string,
     url: string,
-    description: string
+    description: string,
+    directors: string[],
+    actors: string[]
 }
