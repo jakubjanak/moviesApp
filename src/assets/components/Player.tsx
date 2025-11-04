@@ -19,7 +19,7 @@ export default function Player({url, closeModalState}: PlayerType) {
     if (playerRef.current && playerRef.current.isReady_) {
       console.log('Updating source to:', prefix + url)
       playerRef.current.src({
-        src: prefix + "Auta.m3u8",
+        src: prefix + "40 let panic (2005).m3u8",
         type: 'application/x-mpegURL'
       })
       playerRef.current.load()
@@ -31,7 +31,7 @@ export default function Player({url, closeModalState}: PlayerType) {
 
     // Create video element
     const el = document.createElement("video")
-    el.className = "video-js vjs-big-play-centered"
+    el.className = "video-js vjs-big-play-centered max-w-[90vw] max-h-[90vh] w-full h-full rounded-xl shadow-2xl"
     el.setAttribute('playsinline', '')
     container.appendChild(el)
 
@@ -40,6 +40,8 @@ export default function Player({url, closeModalState}: PlayerType) {
       controls: true,
       preload: 'metadata',
       autoplay: 'muted', // Use 'muted' to allow autoplay
+      fluid: true,
+      aspectRatio: "16:9",
       html5: {
         vhs: {
           enableLowInitialPlaylist: true,
@@ -52,7 +54,7 @@ export default function Player({url, closeModalState}: PlayerType) {
     })
 
     player.addClass("rounded-xl shadow-2xl")
-    player.el().classList.add("max-w-[90vw]", "max-h-[90vh]")
+    // player.el().classList.add("max-w-[90vw]", "max-h-[90vh]")
 
     playerRef.current = player
 
@@ -60,7 +62,7 @@ export default function Player({url, closeModalState}: PlayerType) {
     player.ready(() => {
       console.log('Player ready, setting source:', prefix + url)
       player.src({
-        src: prefix + "Auta.m3u8",
+        src: prefix + "40 let panic (2005).m3u8",
         type: 'application/x-mpegURL'
       })
       player.load()
@@ -94,23 +96,21 @@ export default function Player({url, closeModalState}: PlayerType) {
     }
   }, [prefix, url])
 
-  return (
-    <div className="w-full h-full bg-black/50 z-10 fixed top-0 left-0 flex justify-center items-center inset-0">
-      <div className="relative">
-        <div ref={videoRef} data-vjs-player className="w-full h-full"></div>
-      </div>
-      {/* Close button */}
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="size-6 absolute right-1 top-1 cursor-pointer text-white hover:text-gray-300 transition-colors"
-        onClick={() => closeModalState(false)}
-      >
-        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
-      </svg>
-    </div>
-  )
+return (
+  <div className="fixed inset-0 z-10 flex items-center justify-center bg-black/50">
+    <div ref={videoRef} data-vjs-player className="flex justify-center items-center" />
+    {/* Close button */}
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="absolute right-4 top-4 size-6 cursor-pointer text-white hover:text-gray-300 transition-colors"
+      onClick={() => closeModalState(false)}
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+    </svg>
+  </div>
+)
 }
