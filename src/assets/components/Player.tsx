@@ -19,7 +19,7 @@ export default function Player({url, closeModalState}: PlayerType) {
     if (playerRef.current && playerRef.current.isReady_) {
       console.log('Updating source to:', prefix + url)
       playerRef.current.src({
-        src: prefix + "40 let panic (2005).m3u8",
+        src: prefix + "master.m3u8",
         type: 'application/x-mpegURL'
       })
       playerRef.current.load()
@@ -62,7 +62,7 @@ export default function Player({url, closeModalState}: PlayerType) {
     player.ready(() => {
       console.log('Player ready, setting source:', prefix + url)
       player.src({
-        src: prefix + "40 let panic (2005).m3u8",
+        src: prefix + "master.m3u8",
         type: 'application/x-mpegURL'
       })
       player.load()
