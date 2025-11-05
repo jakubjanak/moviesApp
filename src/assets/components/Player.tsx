@@ -48,7 +48,7 @@ export default function Player({url, closeModalState}: PlayerType) {
           smoothQualityChange: true,
           overrideNative: !videojs.browser.IS_SAFARI,
         },
-        nativeAudioTracks: false,
+        nativeAudioTracks: true,
         nativeVideoTracks: false,
       }
     })
