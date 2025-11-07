@@ -1,3 +1,10 @@
+type Subtitles = {
+  label: string,
+  lang: string,
+  src: string,
+  default?: boolean
+}
+
 type MovieData = {
     year: number,
     review: number,
@@ -9,6 +16,7 @@ type MovieData = {
     description: string,
     directors: string[],
     actors: string[]
+    subtitles?: Subtitles[]
 }
 
 export const movies = {
@@ -46,7 +54,12 @@ export const movies = {
     trailerUrl: `https://www.youtube.com/embed/gizK77slRzE`,
     description: `Charlie Heller (Malek) je brilantní, ale hluboce introvertní luštitel CIA pracující ve sklepní kanceláři centrály v Langley, jehož život se obrátí vzhůru nohama, když je jeho žena zabita při teroristickém útoku v Londýně. Když jeho nadřízení odmítnou jednat, vezme věci do vlastních rukou a vydá se na nebezpečnou cestu po celém světě, aby vypátral viníky, přičemž jeho inteligence mu poslouží jako nejlepší zbraň, díky níž unikne pronásledovatelům a dosáhne pomsty.`,
     directors: ["James Hawes"],
-    actors: ["Rami Malek", "Rachel Brosnahan", "Laurence Fishburne", "Caitríona Balfe", "Michael Stuhlbarg"]
+    actors: ["Rami Malek", "Rachel Brosnahan", "Laurence Fishburne", "Caitríona Balfe", "Michael Stuhlbarg"],
+    subtitles: [
+      { label: "Čeština", lang: "cs", src: "Cestina.vtt", default: true },
+      { label: "English - forced", lang: "en", src: "English-forced.vtt" },
+      { label: "English", lang: "en", src: "English.vtt" },
+    ]
   },
   "Andělé démoni": {
     year: 2009,

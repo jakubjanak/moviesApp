@@ -1,3 +1,10 @@
+type Subtitles = {
+  label: string,
+  lang: string,
+  src: string,
+  default?: boolean
+}
+
 export type MovieData = {
     year: number,
     review: number,
@@ -8,5 +15,6 @@ export type MovieData = {
     url: string,
     description: string,
     directors: string[],
-    actors: string[]
+    actors: string[],
+    subtitles?: Subtitles[]
 }

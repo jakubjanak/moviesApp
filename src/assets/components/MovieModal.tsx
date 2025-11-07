@@ -7,7 +7,7 @@ type MovieCardProps = { data: MovieData } & { title: string, setUseState: Dispat
 export default function MovieModal({data, title, setUseState, setShowDesc}: MovieCardProps) {
     const limitWords = 58
     const descriptionWords = data.description.split(" ")
-    console.log(descriptionWords.length)
+    console.log(data.subtitles)
     const previewDescription = descriptionWords.slice(0, limitWords).join(" ")
     const isLong = descriptionWords.length > limitWords
 
@@ -44,7 +44,7 @@ export default function MovieModal({data, title, setUseState, setShowDesc}: Movi
         </div>
         {
             showPlayer &&
-            <Player url={data.url} closeModalState={setShowPlayer} />
+            <Player url={data.url} subtitles={data.subtitles} closeModalState={setShowPlayer} />
         }
     </div>
   )
