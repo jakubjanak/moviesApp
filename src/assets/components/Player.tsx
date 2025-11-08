@@ -14,15 +14,17 @@ type Subtitles = {
 type PlayerType = {
   url: string;
   subtitles: Subtitles[] | undefined;
+  title: string,
   closeModalState: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 export default function Player({
   url,
   subtitles,
+  title,
   closeModalState,
 }: PlayerType) {
-  const prefix = "http://localhost:3000/";
+  const prefix = "http://localhost:3000/" + title + "/";
   const videoRef = React.useRef<HTMLDivElement | null>(null);
   const playerRef = React.useRef<VideoJsPlayer | null>(null);
 
@@ -61,7 +63,7 @@ export default function Player({
           smoothQualityChange: true,
           overrideNative: !videojs.browser.IS_SAFARI,
         },
-        nativeAudioTracks: false,
+        nativeAudioTracks: true,
         nativeVideoTracks: false,
       },
     });

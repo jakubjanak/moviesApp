@@ -61,7 +61,7 @@ export const movies = {
       { label: "English", lang: "en", src: "English.vtt" },
     ]
   },
-  "Andělé démoni": {
+  "Andělé a démoni": {
     year: 2009,
     review: 68,
     genre: ["mysteriózní", "thriller"],
@@ -71,7 +71,11 @@ export const movies = {
     trailerUrl: `https://www.youtube.com/embed/ekfTP1UQG1o`,
     description: "Když Robert Langdon objeví důkazy o znovuobnovení starověkého tajného bratrstva známého jako Ilumináti - nejmocnější tajné organizace v historii - také čelí smrtelnému nebezpečí, které ohrožuje nejnenáviděnějšího nepřítele této tajné organizace: katolickou církev. Když se Langdon dozví, že hodiny na nezastavitelné časované bombě, kterou představují Ilumináti, pořád tikají, odlétá do Říma, kde spojí své síly s Vittorií Vetra, krásnou a záhadnou italskou vědkyní. Langdon a Vetra se vydávají na nepřetržitou cestu a dobrodružstvím nabitou honičku odehrávající se mezi zapečetěnými kryptami, nebezpečnými katakombami, opuštěnými katedrálami a dokonce do srdce nejuzavřenějšího trezoru na světě. Na své cestě sledují 400 let staré starobylé symboly, které znamenají jedinou naději pro přežití Vatikánu.",
     directors: ["Ron Howard"],
-    actors: ["Tom Hanks", "Ewan McGregor", "Ayelet Zurer", "Stellan Skarsgard", "Pierfrancesco Favino"]
+    actors: ["Tom Hanks", "Ewan McGregor", "Ayelet Zurer", "Stellan Skarsgard", "Pierfrancesco Favino"],
+    subtitles: [
+      { label: "Čeština - forced", lang: "cs", src: "Cestina-forced.vtt", default: true},
+      { label: "Čeština", lang: "cs", src: "Cestina.vtt"}
+    ]
   },
   "Auta": {
     year: 2006,
@@ -83,7 +87,12 @@ export const movies = {
     trailerUrl: `https://www.youtube.com/embed/pQly7_Cj34U`,
     description: "Když se začínající, avšak velmi ambiciózní závodní auto Blesk McQueen během cesty na velkolepý šampionát Zlatý píst neočekávaně zatoulá do ospalé Kardanové lhoty u Silnice 66, naučí se, že opravdová radost ze života se neskrývá za cílovou rovinkou, ale na cestě k ní. Auta ze lhoty, s nimiž se v průběhu svého putování napříč Amerikou seznámí, mu ukáží, že na světě existují i důležitější věci než trofeje, sláva a sponzoři.",
     directors: ["John Lasseter", "Joe Ranft"],
-    actors: ["Owen Wilson", "Paul Newman", "Bonnie Hunt", "Larry the Cable Guy", "Cheech Marin"]
+    actors: ["Owen Wilson", "Paul Newman", "Bonnie Hunt", "Larry the Cable Guy", "Cheech Marin"],
+    subtitles: [
+      { label: "Čeština - forced", lang: "cs", src: "Cestina-forced.vtt", default: true },
+      { label: "Čeština", lang: "cs", src: "Cestina.vtt" },
+      { label: "English", lang: "en", src: "English.vtt" }
+    ]
   },
   "Avengers": {
     year: 2012,
@@ -107,7 +116,12 @@ export const movies = {
     trailerUrl: `https://www.youtube.com/embed/kL2-CLQZQe8?si=9WYK37-AsA61N775`,
     description: `Pokus miliardáře Tonyho Starka oživit program na udržení celosvětového míru skončí nezdarem a největší hrdinové světa, včetně Iron Mana, Kapitána Ameriky, Thora, Neuvěřitelného Hulka, Black Widow a Hawkeye musí čelit děsivému nebezpečí. V sázce je osud celé planety. Povstane zlovolný Ultron a jenom Avengers mu mohou zabránit v uskutečnění ďábelských plánů. Nová křehká spojenectví a nečekané zvraty jsou zárukou vzrušujícího a jedinečného akčního dobrodružství globálních rozměrů.`,
     directors: ["Joss Whedon"],
-    actors: ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Scarlett Johansson"]
+    actors: ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Scarlett Johansson"],
+    subtitles: [
+      { label: "Čeština - forced", lang: "cs", src: "Cestina-forced.vtt", default: true },
+      { label: "Čeština", lang: "cs", src: "Cestina.vtt" },
+      { label: "English", lang: "en", src: "English.vtt" },
+    ]
   },
   "Avengers - Infinity War": {
     year: 2018,
