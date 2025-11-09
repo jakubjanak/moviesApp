@@ -104,7 +104,13 @@ export const movies = {
     trailerUrl: `https://www.youtube.com/embed/h4MCVu0jnzo?si=UnjXaAoDEjqZ_Vpc`,
     description: `Marvel Studios uvádí super hrdinský tým všech dob Avengers, ve kterém se přestaví ikoničtí super hrdinové - Iron Man, Neuvěřitelný Hulk, Thor, Captain America, Hawkeye a Black Widow. Když se objeví nečekaný nepřítel, který ohrožuje světovou bezpečnost, Nick Fury, ředitel mezinárodní mírové agentury, známé také jako S.H.I.E.L.D., zjistí, že potřebuje tým, aby odvrátil světovou katastrofu. Začíná provádět nábor po celém světě.`,
     directors: ["Joss Whedon"],
-    actors: ["Robert Downey Jr.", "Jeremy Renner", "Scarlett Johansson", "Chris Evans", "Samuel L. Jackson"]
+    actors: ["Robert Downey Jr.", "Jeremy Renner", "Scarlett Johansson", "Chris Evans", "Samuel L. Jackson"],
+    subtitles: [
+      { label: "Čeština - forced", lang: "cs", src: "Cestina-forced.vtt", default: true },
+      { label: "Čeština", lang: "cs", src: "Cestina.vtt" },
+      { label: "English", lang: "en", src: "English.vtt" },
+
+    ]
   },
   "Avengers - Age of Ultron": {
     year: 2015,
@@ -145,7 +151,11 @@ export const movies = {
     trailerUrl: `https://www.youtube.com/embed/02YEOiHZH1I?si=xLcZ3fJosjD5jJGD`,
     description: "Hrozivé události způsobené Thanosem, který vyhladil polovinu života ve vesmíru a silně oslabil Avengers, vedou zbylé superhrdiny k tomu, aby ve strhujícím finále 22 filmů studia Marvel zvaném Avengers: Endgame sebrali poslední síly a pokusili se vrátit úder.",
     directors: ["Anthony Russo", "Joe Russo"],
-    actors: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth", "Scarlett Johansson"]
+    actors: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth", "Scarlett Johansson"],
+    subtitles: [
+      { label: "Čeština - forced", lang: "cs", src: "Cestina-forced.vtt", default: true },
+      { label: "Čeština", lang: "cs", src: "Cestina.vtt" },
+    ]
   },
   "Batman": {
     year: 2022,
@@ -1691,6 +1701,18 @@ export const movies = {
     directors: ["Martin Scorsese"],
     actors: ["Leonardo DiCaprio", "Jonah Hill", "Margot Robbie", "Matthew McConaughey", "Kyle Chandler"]
   },
+  "Všechno nejhorší": {
+    year: 2017,
+    review: 67,
+    genre: ["horor", "mysteriózní", "thriller", "komedie"] ,
+    poster: "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/162/448/162448909_cd3055.jpg",
+    length: 96,
+    url: "Všechno nejhorší/",
+    trailerUrl: "https://www.youtube.com/watch?v=e0EfKTHhZds",
+    description: `Jak by se vám líbilo uvíznout v časové smyčce, kdy byste dokolečka prožívali ten samý den? A zrovna své narozeniny? A jak by se vám líbilo, kdyby vás na jeho konci pokaždé někdo zabil? Přitom, když se vysokoškolačka Tree probudila, bylo všechno normální. Ačkoliv, otevřít oči v posteli cizího kluka, který na vás vyděšeně zírá, a vůbec nic si nepamatovat, to úplně běžné není. Jenže Tree je tak trochu zlobivá holka, která se s ničím a nikým nepáře, a podobné věci se jí stávají celkem běžně. A zítra to bude asi podobné, protože Tree má dnes narozeniny a večer se chystá trochu kalit. Plány a krční tepnu jí však přetne podivné individuum s maskou. Když se Tree probudí, není ani v nemocnici, ani na onom světě, ale ve stejné cizí posteli stejného cizího kluka. Že by to byl jen špatný sen? To sotva, zvlášť když se to, co se v něm odehrálo, až příliš podobá prožívané realitě, včetně ukázkově morbidní tečky. S dalším probuzením už Tree začíná být jasné, že se ocitla v noční můře, která neskončí, dokud neodhalí identitu vraha s maskou. A tak se stává vyšetřovatelkou vlastní vraždy, která má oproti vrahovi jednu velkou výhodu – ví, co se stane v každé další minutě, a může se na to připravit. Ke své smůle si však svým dosavadním chováním zadělala na pěknou řádku nepřátel a pod maskou zabijáka se může skrývat kterýkoliv z nich. Tree si navíc nikdy nemůže být jistá tím, že i tu příští smrt dokáže přežít. (CinemArt)`,
+    directors: ["Christopher Landon"],
+    actors: ["Jessica Rothe", "Israel Broussard", "Charles Aitken", "Rachel Matthews", "GiGi Erneta"]
+  }
   "Warcraft - První střet": {
     year: 2016,
     review: 73,
