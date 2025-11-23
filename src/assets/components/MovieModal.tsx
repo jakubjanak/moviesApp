@@ -6,12 +6,29 @@ type MovieCardProps = { data: MovieData } & { title: string, setUseState: Dispat
 
 export default function MovieModal({data, title, setUseState, setShowDesc}: MovieCardProps) {
     const limitWords = 58
+    const limitActors = 8
+    const actorsLimitedArray: [string] = [""]
     const descriptionWords = data.description.split(" ")
     console.log(data.subtitles)
     const previewDescription = descriptionWords.slice(0, limitWords).join(" ")
     const isLong = descriptionWords.length > limitWords
 
+    for(let i = 0; i < limitActors; i++) {
+        if(actorsLimitedArray[0] == "") {
+            actorsLimitedArray[0] = data.actors[i];
+        } else {
+            const temporaryValueForAddingToAnArray = data.actors[i];
+            actorsLimitedArray.push(temporaryValueForAddingToAnArray);
+        }
+        console.log(actorsLimitedArray);
+    }
+
+    const showMoreActorsFunc = () => {
+        setShowAllActors(!showAllActors);
+    }
+
     const [showPlayer, setShowPlayer] = useState(false)
+    const [showAllActors, setShowAllActors] = useState(false)
 
   return (
     <div className="w-full h-full bg-black/50 z-10 fixed top-0 left-0 flex justify-center items-center inset-0">
@@ -23,13 +40,20 @@ export default function MovieModal({data, title, setUseState, setShowDesc}: Movi
                 <p className="font-bold text-lg">Žánry: <span className="font-normal text-base capitalize">{data.genre.map((genreType, indx) => (
                     indx + 1 < data.genre.length ? genreType + " / " : genreType
                 ))}</span></p>
-                <p className="font-bold text-lg">Délka filmu: <span className="font-normal text-base">{data.length}</span></p>
+                <p className="font-bold text-lg">Délka filmu: <span className="font-normal text-base">{data.length + " min"}</span></p>
+                {
+                    showAllActors == false ? 
+                        <p className="font-bold text-lg">Herci: <span className="font-normal text-base">{actorsLimitedArray.map((actor, indx) => (
+                            indx + 1 < actorsLimitedArray.length ? actor + ", ": actor
+                        ))}<button className="text-blue-400 cursor-pointer" onClick={showMoreActorsFunc}>...více</button></span></p>
+                    :           
+                        <p className="font-bold text-lg">Herci: <span className="font-normal text-base">{data.actors.map((actor, indx) => (
+                            indx + 1 < data.actors.length ? actor + ", " : actor
+                        ))}<button className="text-blue-400 cursor-pointer" onClick={showMoreActorsFunc}>...méně</button></span></p>   
+                }
                 <p className="font-bold text-lg">Režisér: <span className="font-normal text-base">{data.directors.map((director, indx) => (
-                    indx + 1 < data.directors.length ? director + ", " : director
-                ))}</span></p>
-                <p className="font-bold text-lg">Herci: <span className="font-normal text-base">{data.actors.map((actor, indx) => (
-                    indx + 1 < data.actors.length ? actor + ", " : actor
-                ))}</span></p>
+                            indx + 1 < data.directors.length ? director + ", " : director
+                        ))}</span></p>
                 <p className="font-bold text-lg line-clamp-4">Popis: <span className="font-normal text-base">{isLong ? previewDescription : data.description}{isLong && ( <button className="text-blue-400 cursor-pointer" onClick={() => setShowDesc(true)}>...více</button> )}</span></p>
             </div>
             <button onClick={() => setShowPlayer(true)} className="font-bold text-customWhite bg-customPurple rounded py-1.5 px-3">Přehrát</button>
