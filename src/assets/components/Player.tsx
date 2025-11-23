@@ -31,7 +31,7 @@ export default function Player({
   React.useEffect(() => {
     // If player exists, update source
     if (playerRef.current && playerRef.current.isReady_) {
-      console.log("Updating source to:", prefix + url);
+      console.log("Updating source to:", prefix);
       playerRef.current.src({
         src: prefix + "master.m3u8",
         type: "application/x-mpegURL",
@@ -54,8 +54,8 @@ export default function Player({
     const player = videojs(el, {
       controls: true,
       preload: "metadata",
-      autoplay: "muted", // Use 'muted' to allow autoplay
-      fluid: true,
+      autoplay: true, // Use 'muted' to allow autoplay
+      fluid: false,
       aspectRatio: "16:9",
       html5: {
         vhs: {
@@ -75,7 +75,7 @@ export default function Player({
 
     // Wait for player ready before setting source
     player.ready(() => {
-      console.log("Player ready, setting source:", prefix + url);
+      console.log("Player ready, setting source:", prefix);
       player.src({
         src: prefix + "master.m3u8",
         type: "application/x-mpegURL",
