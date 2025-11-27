@@ -98,7 +98,7 @@ export const movies = {
       { label: "English", lang: "en", src: "English.vtt" },
     ]
   },
-  "Doba ledová 2: Obleva": {
+  "Doba ledová 2 - Obleva": {
     year: 2006,
     length: 86,
     genre: ["Animovaný", "Dobrodružný", "Komedie", "Rodinný"],
@@ -114,7 +114,7 @@ export const movies = {
       { label: "English", lang: "en", src: "English.vtt" },
     ]
   },
-  "Doba ledová 3: Úsvit dinosaurů": {
+  "Doba ledová 3 - Úsvit dinosaurů": {
     year: 2009,
     length: 90,
     genre: ["Animovaný", "Dobrodružný", "Komedie", "Rodinný"],
@@ -130,7 +130,7 @@ export const movies = {
       { label: "English", lang: "en", src: "English.vtt" },
     ]
   },
-  "Doba ledová 4: Země v pohybu": {
+  "Doba ledová 4 - Země v pohybu": {
     year: 2012,
     length: 84,
     genre: ["Animovaný", "Dobrodružný", "Komedie"],
@@ -142,7 +142,7 @@ export const movies = {
     poster: "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/604/158604670_3a6da3.jpg",
     trailerUrl: "https://www.youtube.com/watch?v=EJeTny5YK6c"
   },
-  "Doba ledová 5: Mamutí drcnutí": {
+  "Doba ledová 5 - Mamutí drcnutí": {
     year: 2016,
     length: 94,
     genre: ["Animovaný", "Sci-Fi", "Dobrodružný", "Komedie", "Rodinný"],
@@ -197,7 +197,7 @@ export const movies = {
   //   poster: "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/163/379/163379545_cec226.jpg",
   //   trailerUrl: "https://www.youtube.com/watch?v=f4FYDdMiD9I&t=2s"
   // },
-  "Fantastická zvířata 3: Brumbálova tajemství": {
+  "Fantastická zvířata 3 - Brumbálova tajemství": {
     year: 2022,
     length: 143,
     genre: ["Dobrodružný", "Rodinný", "Fantasy"],
@@ -226,31 +226,39 @@ export const movies = {
   //   poster: "https://image.pmgstatic.com/cache/resized/w1526/files/images/film/posters/164/504/164504179_59ed0b.jpg",
   //   trailerUrl: "https://www.youtube.com/watch?v=h2birnVUc1U&t=1s"
   // },
-  // "Harry Potter a Kámen mudrců": {
-  //   year: 2001,
-  //   length: 152,
-  //   genre: ["Fantasy", "Rodinný", "Dobrodružný", "Mysteriózní"],
-  //   directors: ["Chris Columbus"],
-  //   actors: ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Robbie Coltrane", "Tom Felton", "Richard Harris", "Fiona Shaw", "Ian Hart", "John Hurt", "Richard Griffiths", "Alan Rickman", "Zoë Wanamaker", "Maggie Smith", "John Cleese", "Geraldine Somerville", "Warwick Davis", "Julie Walters", "Matthew Lewis", "Terence Bayler", "Sean Biggerstaff", "Adrian Rawlins", "Verne Troyer", "Bonnie Wright", "Oliver Phelps", "James Phelps", "David Bradley", "Harry Melling", "Elizabeth Spriggs", "Leslie Phillips", "Jamie Waylett", "Chris Rankin", "Devon Murray", "Josh Herdman", "Alfred Enoch", "Julianne Hough", "Scot Fearn", "Richard Bremmer", "Derek Hough", "Richard Alan Reid", "Ray Fearon", "Luke Youngblood", "Bianca Sowerby", "Nina Young", "Eleanor Columbus", "Jimmy Vee", "Stefan Pejic", "Thando Walbaum", "Chris Overton", "Derek Deadman", "Leilah Sutherland", "Harry Taylor", "Leila Hoffman", "Oliver Lavery-Farag", "Mark Ballas", "Danielle Tabor", "Will Theakston", "Dani Harmer", "Paul Grant", "David Holmes"],
-  //   description: `"""Kdo by dnes už alespoň nezaslechl jméno Harryho Pottera, čarodejnického učně, jehož neskutečná popularita mezi dětmi během krátké doby zasáhla i dospělé. Filmovou verzi jeho prvního příběhu zrežíroval Chris Columbus ve spolupráci s autorkou """"potterovských"""" románů J. K. Rowlingovou a pod přísným a podnětným dohledem své dcery Eleanor přenesl na filmové plátno svět Školy čar a kouzel v Bradavicích v plném lesku a hávu hodném největšího kouzelníka na světě.
-  //   Celý příběh Kamene Mudrců se točí kolem sirotka Harryho Pottera. Tomu krátce po narození zahynou za neobvyklých událostí oba rodiče, a Harry proto musí vyrůstat v rodině strýce Vernona a tety Petunie, kteří mu neustále dávají najevo, že místo kde bydlí, není domov. O to větší překvapení ho čeká, když mu v den jeho jedenáctých narozenin přijde dopis, který je předzvěstí změny v jeho dosavadním životě. Od nynějška není obyčejným chlapcem, i když na to stále vypadá, ale stává se studentem Školy čar a kouzel v Bradavicích. Ani tento nový život však nebude procházka růžovou zahradou, obzvlášť když se začne probouzet Harryho záhadná minulost a její temný hrdina, Lord Voldemort... (oficiální text distributora)"""`,
-  //   review: 80,
-  //   ourReview: 0,
-  //   poster: "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/000/001/1549_54f01f.jpg",
-  //   trailerUrl: "https://www.youtube.com/watch?v=VyHV0BRtdxo"
-  // },
-  // "Harry Potter a Tajemná komnata": {
-  //   year: 2002,
-  //   length: 161,
-  //   genre: ["Fantasy", "Rodinný", "Dobrodružný", "Mysteriózní"],
-  //   directors: ["Chris Columbus"],
-  //   actors: ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Maggie Smith", "Kenneth Branagh", "Richard Griffiths", "Alan Rickman", "Richard Harris", "Fiona Shaw", "Robbie Coltrane", "Tom Felton", "Matthew Lewis", "Mark Williams", "John Cleese", "James Phelps", "Oliver Phelps", "Jason Isaacs", "Julie Walters", "Miriam Margolyes", "Christian Coulson", "Sean Biggerstaff", "Warwick Davis", "David Bradley", "Adrian Rawlins", "Gemma Jones", "Shirley Henderson", "Robert Hardy", "Julian Glover", "Peter O'Farrell", "Toby Jones", "Geraldine Somerville", "Harry Melling", "Bonnie Wright", "Louis Doyle", "Leslie Phillips", "Jamie Waylett", "Chris Rankin", "Devon Murray", "Josh Herdman", "Alfred Enoch", "Hugh Mitchell", "Jamie Yeates", "Scot Fearn", "Luke Youngblood", "Eleanor Columbus", "Alfred Burke", "Sean Cronin", "Jim Norton", "Edward Felix Pole Tudor", "Harry Taylor", "Oliver Lavery-Farag", "Danielle Tabor", "Violet Columbus", "Chris O'Shea", "David Holmes", "Sally Mortemore"],
-  //   description: `Harry Potter se po prázdninách vrací do Bradavic a nastupuje do druhého ročníku. A to i přes varování domácího skřítka Dobbyho, podle kterého mu v čarodějné škole hrozí smrt. Harry nedbá nářků skřítka působícího víc škody než užitku, ale potom se skutečně začnou dít podivné věci, na stěnách se objevují neznámé nápisy a několik studentů je přepadeno tajemným přízrakem. Co s tím má společného Tajemná komnata? Stojí za spiknutím opět Voldemort? Kdo je Zmijozelův dědic? Záhadu se Harry vydává rozluštit společně se svými starými známými - Ronem a Hermionou. (oficiální text distributora)`,
-  //   review: 78,
-  //   ourReview: 0,
-  //   poster: "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/600/158600540_43da59.jpg",
-  //   trailerUrl: "https://www.youtube.com/watch?v=nE11U5iBnH0&t=2s"
-  // },
+  "Harry Potter a Kámen mudrců": {
+    year: 2001,
+    length: 152,
+    genre: ["Fantasy", "Rodinný", "Dobrodružný", "Mysteriózní"],
+    directors: ["Chris Columbus"],
+    actors: ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Robbie Coltrane", "Tom Felton", "Richard Harris", "Fiona Shaw", "Ian Hart", "John Hurt", "Richard Griffiths", "Alan Rickman", "Zoë Wanamaker", "Maggie Smith", "John Cleese", "Geraldine Somerville", "Warwick Davis", "Julie Walters", "Matthew Lewis", "Terence Bayler", "Sean Biggerstaff", "Adrian Rawlins", "Verne Troyer", "Bonnie Wright", "Oliver Phelps", "James Phelps", "David Bradley", "Harry Melling", "Elizabeth Spriggs", "Leslie Phillips", "Jamie Waylett", "Chris Rankin", "Devon Murray", "Josh Herdman", "Alfred Enoch", "Julianne Hough", "Scot Fearn", "Richard Bremmer", "Derek Hough", "Richard Alan Reid", "Ray Fearon", "Luke Youngblood", "Bianca Sowerby", "Nina Young", "Eleanor Columbus", "Jimmy Vee", "Stefan Pejic", "Thando Walbaum", "Chris Overton", "Derek Deadman", "Leilah Sutherland", "Harry Taylor", "Leila Hoffman", "Oliver Lavery-Farag", "Mark Ballas", "Danielle Tabor", "Will Theakston", "Dani Harmer", "Paul Grant", "David Holmes"],
+    description: `"""Kdo by dnes už alespoň nezaslechl jméno Harryho Pottera, čarodejnického učně, jehož neskutečná popularita mezi dětmi během krátké doby zasáhla i dospělé. Filmovou verzi jeho prvního příběhu zrežíroval Chris Columbus ve spolupráci s autorkou """"potterovských"""" románů J. K. Rowlingovou a pod přísným a podnětným dohledem své dcery Eleanor přenesl na filmové plátno svět Školy čar a kouzel v Bradavicích v plném lesku a hávu hodném největšího kouzelníka na světě.
+    Celý příběh Kamene Mudrců se točí kolem sirotka Harryho Pottera. Tomu krátce po narození zahynou za neobvyklých událostí oba rodiče, a Harry proto musí vyrůstat v rodině strýce Vernona a tety Petunie, kteří mu neustále dávají najevo, že místo kde bydlí, není domov. O to větší překvapení ho čeká, když mu v den jeho jedenáctých narozenin přijde dopis, který je předzvěstí změny v jeho dosavadním životě. Od nynějška není obyčejným chlapcem, i když na to stále vypadá, ale stává se studentem Školy čar a kouzel v Bradavicích. Ani tento nový život však nebude procházka růžovou zahradou, obzvlášť když se začne probouzet Harryho záhadná minulost a její temný hrdina, Lord Voldemort... (oficiální text distributora)"""`,
+    review: 80,
+    ourReview: 0,
+    poster: "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/000/001/1549_54f01f.jpg",
+    trailerUrl: "https://www.youtube.com/watch?v=VyHV0BRtdxo",
+    subtitles: [
+      { label: "Čeština - forced", lang: "cs", default: true, src: "Cestina-forced.vtt" },
+      { label: "Čeština", lang: "cs", src: "Cestina.vtt" },
+    ]
+  },
+  "Harry Potter a Tajemná komnata": {
+    year: 2002,
+    length: 161,
+    genre: ["Fantasy", "Rodinný", "Dobrodružný", "Mysteriózní"],
+    directors: ["Chris Columbus"],
+    actors: ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Maggie Smith", "Kenneth Branagh", "Richard Griffiths", "Alan Rickman", "Richard Harris", "Fiona Shaw", "Robbie Coltrane", "Tom Felton", "Matthew Lewis", "Mark Williams", "John Cleese", "James Phelps", "Oliver Phelps", "Jason Isaacs", "Julie Walters", "Miriam Margolyes", "Christian Coulson", "Sean Biggerstaff", "Warwick Davis", "David Bradley", "Adrian Rawlins", "Gemma Jones", "Shirley Henderson", "Robert Hardy", "Julian Glover", "Peter O'Farrell", "Toby Jones", "Geraldine Somerville", "Harry Melling", "Bonnie Wright", "Louis Doyle", "Leslie Phillips", "Jamie Waylett", "Chris Rankin", "Devon Murray", "Josh Herdman", "Alfred Enoch", "Hugh Mitchell", "Jamie Yeates", "Scot Fearn", "Luke Youngblood", "Eleanor Columbus", "Alfred Burke", "Sean Cronin", "Jim Norton", "Edward Felix Pole Tudor", "Harry Taylor", "Oliver Lavery-Farag", "Danielle Tabor", "Violet Columbus", "Chris O'Shea", "David Holmes", "Sally Mortemore"],
+    description: `Harry Potter se po prázdninách vrací do Bradavic a nastupuje do druhého ročníku. A to i přes varování domácího skřítka Dobbyho, podle kterého mu v čarodějné škole hrozí smrt. Harry nedbá nářků skřítka působícího víc škody než užitku, ale potom se skutečně začnou dít podivné věci, na stěnách se objevují neznámé nápisy a několik studentů je přepadeno tajemným přízrakem. Co s tím má společného Tajemná komnata? Stojí za spiknutím opět Voldemort? Kdo je Zmijozelův dědic? Záhadu se Harry vydává rozluštit společně se svými starými známými - Ronem a Hermionou. (oficiální text distributora)`,
+    review: 78,
+    ourReview: 0,
+    poster: "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/600/158600540_43da59.jpg",
+    trailerUrl: "https://www.youtube.com/watch?v=nE11U5iBnH0&t=2s",
+    subtitles: [
+      { label: "Čeština", lang: "cs", src: "Cestina.vtt" },
+      { label: "Slovenčina", lang: "sk", src: "Slovencina.vtt" },
+    ]
+  },
   // "Harry Potter a vězeň z Azkabanu": {
   //   year: 2004,
   //   length: 141,

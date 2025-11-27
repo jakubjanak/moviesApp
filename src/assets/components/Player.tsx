@@ -55,7 +55,8 @@ export default function Player({
       controls: true,
       preload: "metadata",
       autoplay: true, // Use 'muted' to allow autoplay
-      fluid: true,
+      // fluid: true,
+      fill: true,
       // aspectRatio: "16:9",
       html5: {
         vhs: {

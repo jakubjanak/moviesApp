@@ -56,7 +56,7 @@ export default function MovieModal({data, title, setUseState, setShowDesc}: Movi
                         ))}</span></p>
                 <p className="font-bold text-lg line-clamp-4">Popis: <span className="font-normal text-base">{isLong ? previewDescription : data.description}{isLong && ( <button className="text-blue-400 cursor-pointer" onClick={() => setShowDesc(true)}>...více</button> )}</span></p>
             </div>
-            <button onClick={() => setShowPlayer(true)} className="font-bold text-customWhite bg-customPurple rounded py-1.5 px-3">Přehrát</button>
+            <button onClick={() => setShowPlayer(true)} className="font-bold text-customWhite bg-customPurple rounded py-1.5 px-3 cursor-pointer">Přehrát</button>
             <div className="w-full mt-1.5">
                 {/* <img className="max-h-[55vh] max-w-[90vw] object-contain rounded" src={data.poster} alt={title} /> */}
                 <iframe className="w-[768px] aspect-video rounded" src={data.trailerUrl} title={title + " - trailer"} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
