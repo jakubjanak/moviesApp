@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import "@firebase-oss/ui-styles/tailwind";
+
+@theme {
+  --color-customBlack: #181616;
+  --color-customWhite: #EEEEEE;
+  --color-customPurple: #312188;
+}
+
+body {
+    background-color: #181616;
+    color: #EEEEEE;
+}
+
+.purple_bg_color {
+  background-color: #312188;
+}
+
+.white_text_color {
+  color: #EEEEEE;
+}
+
+.bitcount-ink-regular {
+  font-family: "Bitcount Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+.bitcount-ink-bold {
+  font-family: "Bitcount Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
