@@ -12,7 +12,6 @@ export type MovieData = {
     poster: string,
     length: number,
     trailerUrl: string,
-    url: string,
     description: string,
     directors: string[],
     actors: string[],
