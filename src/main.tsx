@@ -4,8 +4,8 @@ import { RouterProvider } from "react-router/dom"
 import "./index.css"
 import Movies from "./Movies"
 import Homepage from "./assets/components/Homepage"
-// import { FirebaseUIProvider } from '@firebase-oss/ui-react';
-// import SignInPage from "./assets/components/SignInPage"
+import { AuthProvider } from "./contexts/AuthContext"
+import ProtectedRoute from "./assets/components/ProtectedRoute"
 
 const router = createBrowserRouter([
   {
@@ -14,18 +14,18 @@ const router = createBrowserRouter([
   },
   {
     path: "/filmy",
-    element: <Movies />
+    element: (
+      <ProtectedRoute>
+        <Movies />
+      </ProtectedRoute>
+    )
   },
-  // {
-  //   path: "/prihlaseni",
-  //   element: <SignInPage />
-  // }
 ]);
 
 const root = document.getElementById("root")!;
 
 ReactDOM.createRoot(root).render(
-  // <FirebaseUIProvider ui={ui}>
-  <RouterProvider router={router} />,
-  // </FirebaseUIProvider>
-)
+  <AuthProvider>
+    <RouterProvider router={router} />
+  </AuthProvider>
+);

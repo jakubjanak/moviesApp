@@ -11,8 +11,7 @@ import DescriptionModal from "./assets/components/DescriptionModal"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import { useRef } from "react"
-import { signInWithPopup } from "firebase/auth"
-import { auth, googleProvider } from "./assets/scripts/firebird"
+import { useAuth } from "./contexts/AuthContext"
 
 const PAGE_SIZE = 21;
 
@@ -46,19 +45,16 @@ function Movies() {
     window.scrollTo({ top: 0, behavior: "smooth"}); // návrat nahoru na stránku
   };
 
-  const signWithGoogle = async () => {
-    try {
-      const result = await signInWithPopup(auth, googleProvider);
-      const user = result.user
-      alert((`Přihlášen jako ${user.displayName} (${user.email})`))
-    } catch (err) {
-      console.error(err);
-    }
-  }
+  const { user, signOut } = useAuth();
 
   return (
       <div className="h-full w-full my-4">
-        <button className="pointer" onClick={signWithGoogle}>Přihlásit se</button>
+        { user && (
+        <div>
+          <p>Přihlášen jako: {user.displayName}</p>
+          <button onClick={signOut} className="cursor-pointer">Odhlásit se</button>
+        </div>
+        )}
         <Header>filmová galerie</Header>
         <SearchBtn value={searchVal} onChange={e => setSearchVal(e.target.value)} />
         <div ref={moviesContainerRef} className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-7 w-10/12 mx-auto gap-2 mt-4">

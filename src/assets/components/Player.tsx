@@ -12,14 +12,12 @@ type Subtitles = {
 };
 
 type PlayerType = {
-  url: string;
   subtitles: Subtitles[] | undefined;
   title: string,
   closeModalState: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 export default function Player({
-  url,
   subtitles,
   title,
   closeModalState,
@@ -132,7 +130,7 @@ export default function Player({
       playerRef.current = null;
       container.innerHTML = "";
     };
-  }, [prefix, url, subtitles]);
+  }, [prefix, subtitles]);
 
   return (
     <div className="fixed inset-0 z-10 flex items-center justify-center bg-black/50">

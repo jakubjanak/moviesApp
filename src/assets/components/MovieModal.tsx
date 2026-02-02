@@ -68,7 +68,7 @@ export default function MovieModal({data, title, setUseState, setShowDesc}: Movi
         </div>
         {
             showPlayer &&
-            <Player url={data.url} subtitles={data.subtitles} title={title} closeModalState={setShowPlayer} />
+            <Player subtitles={data.subtitles} title={title} closeModalState={setShowPlayer} />
         }
     </div>
   )
